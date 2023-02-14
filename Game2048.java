@@ -3,7 +3,7 @@ package com.javarush.games.game2048;
 import com.javarush.engine.cell.*;
 
 public class Game2048 extends Game {
-    private static final int SIDE = 4;
+    private static final int SIDE = 5;
     private int[][] gameField = new int[SIDE][SIDE];
     private boolean isGameStopped = false;
     private int score = 0;
